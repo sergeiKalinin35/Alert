@@ -60,26 +60,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="r3e-8o-iwC">
-                                <rect key="frame" x="12" y="475" width="390" height="174"/>
+                                <rect key="frame" x="12" y="543" width="390" height="174"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1up-xW-GTj">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="34"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Incomplete Form">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMx-y2-e0v">
                                         <rect key="frame" x="0.0" y="70" width="390" height="34"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Invalid Email">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQa-Rh-vz9">
                                         <rect key="frame" x="0.0" y="140" width="390" height="34"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Unable To Retrieve Data">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
@@ -92,7 +92,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BSg-x2-keB" secondAttribute="trailing" constant="63" id="0W0-Qe-MFk"/>
                             <constraint firstItem="xWH-eY-JP1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="4bg-xh-7oM"/>
                             <constraint firstItem="BXx-4i-AiX" firstAttribute="top" secondItem="B3q-Ts-hJx" secondAttribute="bottom" constant="35" id="761-gk-wkb"/>
-                            <constraint firstItem="r3e-8o-iwC" firstAttribute="top" secondItem="BSg-x2-keB" secondAttribute="bottom" constant="12" id="AqX-bN-YGM"/>
+                            <constraint firstItem="r3e-8o-iwC" firstAttribute="top" secondItem="BSg-x2-keB" secondAttribute="bottom" constant="80" id="AqX-bN-YGM"/>
                             <constraint firstItem="B3q-Ts-hJx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FwC-Wa-z2j"/>
                             <constraint firstItem="BSg-x2-keB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GoG-cN-i6M"/>
                             <constraint firstAttribute="trailing" secondItem="vR0-Ib-eel" secondAttribute="trailing" id="JaV-nk-kEc"/>
@@ -105,7 +105,7 @@
                             <constraint firstItem="BXx-4i-AiX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="dWF-IZ-FNu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xWH-eY-JP1" secondAttribute="bottom" constant="770" id="ezM-xu-QPZ"/>
                             <constraint firstItem="vR0-Ib-eel" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="g0U-LY-6Bv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r3e-8o-iwC" secondAttribute="bottom" constant="213" id="j1X-Jd-sId"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r3e-8o-iwC" secondAttribute="bottom" constant="145" id="j1X-Jd-sId"/>
                             <constraint firstAttribute="bottom" secondItem="vR0-Ib-eel" secondAttribute="bottom" id="s9O-Zb-kgg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BXx-4i-AiX" secondAttribute="trailing" constant="109" id="yhR-wj-TYw"/>
                         </constraints>
