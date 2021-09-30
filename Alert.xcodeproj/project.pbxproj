@@ -56,6 +56,7 @@
 		F4BCE4BD2706112A00EFD40B /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				F4BCE4D22706278100EFD40B /* Alert */,
 				F4BCE4BE2706112A00EFD40B /* AppDelegate.swift */,
 				F4BCE4C02706112A00EFD40B /* SceneDelegate.swift */,
 				F4BCE4C22706112A00EFD40B /* ViewController.swift */,
@@ -63,6 +64,13 @@
 				F4BCE4C72706112D00EFD40B /* Assets.xcassets */,
 				F4BCE4C92706112D00EFD40B /* LaunchScreen.storyboard */,
 				F4BCE4CC2706112D00EFD40B /* Info.plist */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		F4BCE4D22706278100EFD40B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Alert;
 			sourceTree = "<group>";
